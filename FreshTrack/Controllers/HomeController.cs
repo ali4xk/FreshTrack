@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using FreshTrack.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FreshTrack.Controllers
 {
@@ -20,6 +21,11 @@ namespace FreshTrack.Controllers
             return View();
         }
         public IActionResult Signup()
+        {
+            return View();
+        }
+        [Authorize]
+        public IActionResult Dashboard()
         {
             return View();
         }
