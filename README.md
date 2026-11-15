@@ -1,6 +1,6 @@
 ## HTML Pages
 
-The following pages have been created for this assignment:
+The following pages have been created for D1:
 
 1. **Home Page:** `Views/Home/Index.cshtml`
 2. **Login Page:** `Views/Home/Login.cshtml`
